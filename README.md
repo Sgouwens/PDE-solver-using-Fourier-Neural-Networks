@@ -7,6 +7,8 @@
 
 **FNO base.ipynb** is a notebook that shows more clearly the data generation, model fitting and contains animations of the results ('zero-shot')
 
+**library changes** should be put in the folder of the _neuralops_ library to use the modified model architecture.
+
 ## Learning Parametric PDEs with Fourier Neural Operators
 
 This repository contains work-in-progress on using Fourier Neural Operators (FNOs) to learn solutions to parametrized partial differential equations (PDEs), with a focus on the Darcy Flow problem.
