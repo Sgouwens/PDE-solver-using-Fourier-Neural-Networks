@@ -30,6 +30,9 @@ We adapt the base FNO implementation to accommodate parametrized input by concat
 
 Most training is performed on a GPU. Multiple configurations (grid size, parameter ranges, etc.) are tested to evaluate the generalization ability of the model.
 
+![Alt text](images/Wandb%20training.png)
+![Alt text](images/Wandb%20testing.png)
+
 ## Broader Context
 
 This work is inspired by recent applications of FNOs to real-world systems. Notably, NASA's PritiWxC foundational model used satellite imagery time-series and FNO variants to build fast, accurate weather forecasting models.
