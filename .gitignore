@@ -1,0 +1,14 @@
+__pycache__/
+
+# Folders
+conditional-flow-matching/*
+
+# File extensions
+*.pth
+*.csv
+*.png``
+*.gif
+*.pt
+
+# File(s)
+.env
