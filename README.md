@@ -1,5 +1,8 @@
 # PDE-solver-using-Fourier-Neural-Networks
 
+PDE_FNO_Solver.py is the main script that performs model initialization and fitting.
+fitting-fno-models.ipynb is the notebook that performs the model fitting by calling the GPU
+FNO base.ipynb is a notebook that shows more clearly the data generation, model fitting and contains animations of the results ('zero-shot')
 
 # Learning Parametric PDEs with Fourier Neural Operators
 
@@ -30,6 +33,7 @@ We adapt the base FNO implementation to accommodate parametrized input by concat
 
 Most training is performed on a GPU. Multiple configurations (grid size, parameter ranges, etc.) are tested to evaluate the generalization ability of the model.
 
+Here some tracked trainings with varying sets of hypterparameters are displayed (Weights & Biases)
 ![Alt text](images/Wandb%20training.png)
 ![Alt text](images/Wandb%20testing.png)
 
