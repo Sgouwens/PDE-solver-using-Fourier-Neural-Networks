@@ -1,7 +1,15 @@
 # PDE-solver-using-Fourier-Neural-Networks
 
+## Noteworthy files in the repository
+**PDE_FNO_Solver.py** is the main script that performs model initialization and fitting.
 
-# Learning Parametric PDEs with Fourier Neural Operators
+**fitting-fno-models.ipynb** is the notebook that performs the model fitting by calling the GPU
+
+**FNO base.ipynb** is a notebook that shows more clearly the data generation, model fitting and contains animations of the results ('zero-shot')
+
+**library changes** should be put in the folder of the _neuralops_ library to use the modified model architecture.
+
+## Learning Parametric PDEs with Fourier Neural Operators
 
 This repository contains work-in-progress on using Fourier Neural Operators (FNOs) to learn solutions to parametrized partial differential equations (PDEs), with a focus on the Darcy Flow problem.
 
@@ -29,6 +37,10 @@ We use the Fourier Neural Operator (FNO) architecture as described by Li et al. 
 We adapt the base FNO implementation to accommodate parametrized input by concatenating auxiliary channels representing the PDE parameters. This requires minor changes to the data pipeline and model architecture.
 
 Most training is performed on a GPU. Multiple configurations (grid size, parameter ranges, etc.) are tested to evaluate the generalization ability of the model.
+
+Here some tracked trainings with varying sets of hypterparameters are displayed (Weights & Biases)
+![Alt text](images/Wandb%20training.png)
+![Alt text](images/Wandb%20testing.png)
 
 ## Broader Context
 
